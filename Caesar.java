@@ -6,16 +6,24 @@ class Caesar
 	public static void main (String[] args)
 	{
 		int argsCount = args.length;
+		ArrayList<String> inputs = new ArrayList<String>();
 
-		String[] inputs;
+		int k = Integer.parseInt(args[0]);
 
-		for(int i=0; i < args.length; i++)
+		for(int i=1; i < argsCount; i++)
 		{
 			inputs.add(args[i]);
 		}
 
-		System.out.println(inputs);
+		for(String arg : inputs)
+		{
+			char[] argChar  = arg.toCharArray();
 
+			for(char ch : )
+			{
+
+			}
+		}
 		//char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
 		//char[] alphabetUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
 	}
